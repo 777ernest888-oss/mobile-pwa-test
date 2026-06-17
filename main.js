@@ -26,7 +26,7 @@ async function loadSafeData() {
        
         // Предохранитель: если сеть «зависнет», через 8 секунд сбросить ожидание
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 8000);
+        const timeoutId = setTimeout(() => controller.abort(), 30000);
 
         const response = await fetch(GOOGLE_SCRIPT_URL, { signal: controller.signal });
         clearTimeout(timeoutId);
