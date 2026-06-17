@@ -1,5 +1,5 @@
 // Ссылка на вашего Google-робота, которую вы получили
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz4qX51wsZpVnZaUREB8QusxNAZonNXdMIySfXzS5wtnfdG9bWL8yvCRJ0ffWEOhJQC9w/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzylPgpqaP9zXpbfsZryxY21ZXS30B_Nhhl_ClHfCOfpVmrm1EaQISbu5cXM6p-yTEM/exec";
 
 document.addEventListener('DOMContentLoaded', () => {
     // Безопасно будим Telegram SDK, если мы внутри WebView
